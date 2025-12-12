@@ -4,21 +4,21 @@ A Wordpress theme demo created using [Sage](https://roots.io/sage/).
 
 ## Requirements
 
-- Node >= 24.11.1
+- DDEV >= 1.24.1
 
 ## Getting Started
 
-Install the required dependencies using npm.
+While on the theme root directory, Install the required dependencies using npm.
 ```shell
-npm install
+ddev npm install
 ```
 
 On the first run, build the project using the command below.
 ```shell
-npm run build
+ddev npm run build
 ```
 
-Afterwards, use the command below when developing.
+Afterwards, use the command below while developing.
 ```shell
-npm run dev
+ddev npm run dev
 ```
