@@ -4,27 +4,56 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="48100f4a-393f-48a7-a290-2131bbf0d7f3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.ddev/config.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env.example" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LICENSE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/application.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/environments/development.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/environments/staging.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pint.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/app/mu-plugins/bedrock-autoloader.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/app/plugins/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/app/themes/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/app/uploads/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/wp-config.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-cli.yml" afterDir="false" />
+    <list default="true" id="48100f4a-393f-48a7-a290-2131bbf0d7f3" name="Changes" comment="Initialize with DDEV and Bedrock">
+      <change afterPath="$PROJECT_DIR$/web/app/themes/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/app/themes/wordpress-demo/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/app/themes/wordpress-demo/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/app/themes/wordpress-demo/LICENSE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/app/themes/wordpress-demo/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/app/themes/wordpress-demo/app/Providers/ThemeServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/app/themes/wordpress-demo/app/View/Composers/App.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/app/themes/wordpress-demo/app/View/Composers/Comments.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/app/themes/wordpress-demo/app/View/Composers/Post.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/app/themes/wordpress-demo/app/filters.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/app/themes/wordpress-demo/app/setup.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/app/themes/wordpress-demo/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/app/themes/wordpress-demo/composer.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/app/themes/wordpress-demo/functions.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/app/themes/wordpress-demo/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/app/themes/wordpress-demo/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/app/themes/wordpress-demo/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/app/themes/wordpress-demo/public/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/app/themes/wordpress-demo/resources/css/app.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/app/themes/wordpress-demo/resources/css/editor.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/app/themes/wordpress-demo/resources/fonts/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/app/themes/wordpress-demo/resources/images/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/app/themes/wordpress-demo/resources/js/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/app/themes/wordpress-demo/resources/js/editor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/app/themes/wordpress-demo/resources/views/404.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/app/themes/wordpress-demo/resources/views/components/alert.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/app/themes/wordpress-demo/resources/views/forms/search.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/app/themes/wordpress-demo/resources/views/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/app/themes/wordpress-demo/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/app/themes/wordpress-demo/resources/views/page.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/app/themes/wordpress-demo/resources/views/partials/comments.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/app/themes/wordpress-demo/resources/views/partials/content-page.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/app/themes/wordpress-demo/resources/views/partials/content-search.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/app/themes/wordpress-demo/resources/views/partials/content-single.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/app/themes/wordpress-demo/resources/views/partials/content.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/app/themes/wordpress-demo/resources/views/partials/entry-meta.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/app/themes/wordpress-demo/resources/views/partials/page-header.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/app/themes/wordpress-demo/resources/views/search.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/app/themes/wordpress-demo/resources/views/sections/footer.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/app/themes/wordpress-demo/resources/views/sections/header.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/app/themes/wordpress-demo/resources/views/sections/sidebar.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/app/themes/wordpress-demo/resources/views/single.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/app/themes/wordpress-demo/resources/views/template-custom.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/app/themes/wordpress-demo/screenshot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/app/themes/wordpress-demo/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/app/themes/wordpress-demo/theme.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/app/themes/wordpress-demo/vite.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +71,7 @@
     <execution />
   </component>
   <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="3216" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="Git.Settings">
@@ -87,7 +117,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
@@ -113,12 +143,25 @@
       <option name="presentableId" value="Default" />
       <updated>1763971671271</updated>
       <workItem from="1763971672295" duration="20000" />
-      <workItem from="1765518082749" duration="6092000" />
+      <workItem from="1765518082749" duration="10800000" />
     </task>
+    <task id="LOCAL-00001" summary="Initialize with DDEV and Bedrock">
+      <option name="closed" value="true" />
+      <created>1765533264568</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1765533264568</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initialize with DDEV and Bedrock" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initialize with DDEV and Bedrock" />
   </component>
   <component name="WordPressConfiguration" enabled="true">
     <wordpressPath>\\wsl.localhost\Ubuntu\home\mbishram\personal\learn\wordpress-demo\public\wordpress</wordpressPath>

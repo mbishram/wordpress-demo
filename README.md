@@ -1,6 +1,6 @@
 # Wordpress Demo
 
-A demo Wordpress using DDEV and Bedrock.
+A Wordpress demo created using [DDEV](https://ddev.com/), [Bedrock](https://roots.io/bedrock/), and [Sage](https://roots.io/sage/).
 
 ## Requirements
 
@@ -27,3 +27,9 @@ After that, you can run the following command to start DDEV server.
 ddev start
 ```
 It should show the URL where the site is served.
+
+## Demo Theme
+
+The demo theme created by Sage are located at `web/app/themes/wordpress-demo`.
+
+For more details on how to run it, see `README.md` file in the same directory.
