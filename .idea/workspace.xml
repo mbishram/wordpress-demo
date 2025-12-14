@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="48100f4a-393f-48a7-a290-2131bbf0d7f3" name="Changes" comment="Update README.md for Sage theme">
+    <list default="true" id="48100f4a-393f-48a7-a290-2131bbf0d7f3" name="Changes" comment="Fix asset missing on development server">
       <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/laravel-idea.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
@@ -213,7 +213,7 @@
       <workItem from="1765598084183" duration="4017000" />
       <workItem from="1765603860213" duration="261000" />
       <workItem from="1765622616719" duration="2012000" />
-      <workItem from="1765664085713" duration="9251000" />
+      <workItem from="1765664085713" duration="9756000" />
     </task>
     <task id="LOCAL-00001" summary="Initialize with DDEV and Bedrock">
       <option name="closed" value="true" />
@@ -249,7 +249,8 @@
     <MESSAGE value="Initialize with DDEV and Bedrock" />
     <MESSAGE value="Initialize Sage theme" />
     <MESSAGE value="Update README.md for Sage theme" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update README.md for Sage theme" />
+    <MESSAGE value="Fix asset missing on development server" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix asset missing on development server" />
   </component>
   <component name="WordPressConfiguration" enabled="true">
     <wordpressPath>\\wsl.localhost\Ubuntu\home\mbishram\personal\learn\wordpress-demo\web\wp</wordpressPath>

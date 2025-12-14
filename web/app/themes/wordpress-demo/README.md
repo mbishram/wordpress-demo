@@ -17,7 +17,7 @@ Copy `.env.example` to `.env` and update the following values.
 ```dotenv
 APP_URL="${DDEV_PRIMARY_URL}"
 ```
-This will configuration needed for Vite dev server to fix CORS issue. For more details, see [Laravel Vite on CORS section](https://laravel.com/docs/12.x/vite#cors).
+This configuration is needed to fix CORS error that happend in development environment. For more details, see [Laravel Vite on CORS section](https://laravel.com/docs/12.x/vite#cors).
 
 On the first run, build the project using the command below.
 ```shell
