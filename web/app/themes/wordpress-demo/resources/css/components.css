@@ -1,11 +1,2 @@
 @layer components {
-  .link {
-    cursor: pointer;
-    text-decoration: none !important;
-
-    @variant hover {
-      color: var(--color-primary);
-      text-decoration: underline !important;
-    }
-  }
 }

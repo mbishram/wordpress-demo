@@ -1,5 +1,6 @@
 @theme {
   --color-primary: var(--color-blue-500);
+  --color-secondary: var(--color-gray-400);
 
   --spacing-xs: --spacing(2);
   --spacing-sm: --spacing(4);

@@ -2,3 +2,13 @@
   padding-inline: var(--spacing-sm);
   margin-inline: auto;
 }
+
+@utility link {
+  cursor: pointer;
+  text-decoration: none !important;
+
+  @variant hover {
+    color: var(--color-primary);
+    text-decoration: underline !important;
+  }
+}
