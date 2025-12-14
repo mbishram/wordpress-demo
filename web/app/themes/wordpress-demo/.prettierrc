@@ -1,0 +1,16 @@
+{
+  "printWidth": 80,
+  "sortTailwindcssClasses": true,
+  "plugins": [
+    "@shufo/prettier-plugin-blade",
+    "@prettier/plugin-php"
+  ],
+  "overrides": [
+    {
+      "files": ["*.blade.php"],
+      "options": {
+        "parser": "blade"
+      }
+    }
+  ]
+}

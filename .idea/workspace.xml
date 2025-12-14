@@ -5,15 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="48100f4a-393f-48a7-a290-2131bbf0d7f3" name="Changes" comment="Fix asset missing on development server">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/laravel-idea.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/app/themes/wordpress-demo/.env.example" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.ddev/config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/.ddev/config.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/prettier.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/app/themes/wordpress-demo/.prettierrc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/wordpress-demo/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/web/app/themes/wordpress-demo/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/app/themes/wordpress-demo/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/web/app/themes/wordpress-demo/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/app/themes/wordpress-demo/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/web/app/themes/wordpress-demo/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/app/themes/wordpress-demo/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/app/themes/wordpress-demo/resources/views/layouts/app.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/app/themes/wordpress-demo/resources/views/partials/page-header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/app/themes/wordpress-demo/resources/views/partials/page-header.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/wordpress-demo/vite.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/app/themes/wordpress-demo/vite.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +35,7 @@
     <drupalPath />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="3296" />
+    <option name="cachedIndexableFilesCount" value="3297" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="Git.Settings">
@@ -46,6 +44,11 @@
   <component name="JoomlaConfiguration">
     <joomlaConfigPath />
     <joomlaPath />
+  </component>
+  <component name="JsbtTreeLayoutManager">
+    <layout place="tools.popupGrunt">
+      <scroll-view-position x="0" y="0" />
+    </layout>
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -155,6 +158,9 @@
       <path value="$PROJECT_DIR$/web/app/themes/wordpress-demo/vendor/symfony/polyfill-intl-grapheme" />
     </include_path>
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 8
@@ -182,6 +188,7 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_interpreter_path": "wsl://Ubuntu@/home/mbishram/.local/share/mise/installs/node/24.11.1/bin/node",
     "nodejs_package_manager_path": "npm",
+    "prettierjs.PrettierConfiguration.Package": "\\\\wsl.localhost\\Ubuntu\\home\\mbishram\\personal\\learn\\wordpress-demo\\web\\app\\themes\\wordpress-demo\\node_modules\\prettier",
     "settings.editor.selected.configurable": "com.maddyhome.idea.vim.ui.VimEmulationConfigurable",
     "to.speed.mode.migration.done": "true",
     "vue.rearranger.settings.migration": "true"
@@ -213,7 +220,8 @@
       <workItem from="1765598084183" duration="4017000" />
       <workItem from="1765603860213" duration="261000" />
       <workItem from="1765622616719" duration="2012000" />
-      <workItem from="1765664085713" duration="9756000" />
+      <workItem from="1765664085713" duration="11252000" />
+      <workItem from="1765700985533" duration="265000" />
     </task>
     <task id="LOCAL-00001" summary="Initialize with DDEV and Bedrock">
       <option name="closed" value="true" />
@@ -239,7 +247,15 @@
       <option name="project" value="LOCAL" />
       <updated>1765543636113</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Fix asset missing on development server">
+      <option name="closed" value="true" />
+      <created>1765699432132</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1765699432132</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
