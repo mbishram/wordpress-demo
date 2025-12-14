@@ -1,0 +1,4 @@
+@utility container {
+  padding-inline: var(--spacing-sm);
+  margin-inline: auto;
+}

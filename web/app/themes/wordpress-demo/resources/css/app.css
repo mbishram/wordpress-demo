@@ -1,3 +1,8 @@
-@import "tailwindcss" theme(static);
-@source "../views/";
+@import 'tailwindcss' theme(static);
+
+@import './theme.css';
+@import './components.css';
+@import './utilities.css';
+
+@source '../views/';
 @source "../../app/";

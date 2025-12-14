@@ -1,3 +1,3 @@
-<div class="page-header border-b-2 text-6xl text-red-500">
+<div class="page-header my-lg text-5xl">
   <h1>{!! $title !!}</h1>
 </div>

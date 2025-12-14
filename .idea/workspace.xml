@@ -4,14 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="48100f4a-393f-48a7-a290-2131bbf0d7f3" name="Changes" comment="Fix asset missing on development server">
-      <change afterPath="$PROJECT_DIR$/.idea/prettier.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/app/themes/wordpress-demo/.prettierrc" afterDir="false" />
+    <list default="true" id="48100f4a-393f-48a7-a290-2131bbf0d7f3" name="Changes" comment="Add prettier to wordpress-demo theme">
+      <change afterPath="$PROJECT_DIR$/web/app/themes/wordpress-demo/resources/css/components.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/app/themes/wordpress-demo/resources/css/theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/app/themes/wordpress-demo/resources/css/utilities.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/wordpress-demo/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/web/app/themes/wordpress-demo/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/wordpress-demo/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/web/app/themes/wordpress-demo/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/app/themes/wordpress-demo/app/filters.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/app/themes/wordpress-demo/app/filters.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/app/themes/wordpress-demo/resources/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/app/themes/wordpress-demo/resources/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/app/themes/wordpress-demo/resources/css/editor.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/app/themes/wordpress-demo/resources/css/editor.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/app/themes/wordpress-demo/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/app/themes/wordpress-demo/resources/views/layouts/app.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/app/themes/wordpress-demo/resources/views/partials/page-header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/app/themes/wordpress-demo/resources/views/partials/page-header.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/app/themes/wordpress-demo/resources/views/sections/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/app/themes/wordpress-demo/resources/views/sections/header.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/app/themes/wordpress-demo/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/app/themes/wordpress-demo/style.css" afterDir="false" />
+    </list>
+    <list id="36d9891a-7b0e-43b1-a20d-da78fb203b08" name="Do not commit!" comment="">
+      <change beforePath="$PROJECT_DIR$/web/app/themes/wordpress-demo/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/web/app/themes/wordpress-demo/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,8 +42,15 @@
     <drupalPath />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="3297" />
+    <option name="cachedIndexableFilesCount" value="3301" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -166,6 +180,9 @@
   &quot;associatedIndex&quot;: 8
 }</component>
   <component name="ProjectId" id="36jRdI6BHHQWpJvtFAxemQo6E3t" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -182,6 +199,7 @@
     "javascript.preferred.runtime.type.id": "node",
     "junie.onboarding.icon.badge.shown": "true",
     "last_opened_file_path": "//wsl.localhost/Ubuntu/home/mbishram/personal/learn/wordpress-demo/web/app/themes/wordpress-demo",
+    "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -189,7 +207,7 @@
     "nodejs_interpreter_path": "wsl://Ubuntu@/home/mbishram/.local/share/mise/installs/node/24.11.1/bin/node",
     "nodejs_package_manager_path": "npm",
     "prettierjs.PrettierConfiguration.Package": "\\\\wsl.localhost\\Ubuntu\\home\\mbishram\\personal\\learn\\wordpress-demo\\web\\app\\themes\\wordpress-demo\\node_modules\\prettier",
-    "settings.editor.selected.configurable": "com.maddyhome.idea.vim.ui.VimEmulationConfigurable",
+    "settings.editor.selected.configurable": "terminal",
     "to.speed.mode.migration.done": "true",
     "vue.rearranger.settings.migration": "true"
   }
@@ -211,6 +229,7 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="48100f4a-393f-48a7-a290-2131bbf0d7f3" name="Changes" comment="" />
+      <changelist id="36d9891a-7b0e-43b1-a20d-da78fb203b08" name="Do not commit!" comment="" />
       <created>1763971671271</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -221,7 +240,8 @@
       <workItem from="1765603860213" duration="261000" />
       <workItem from="1765622616719" duration="2012000" />
       <workItem from="1765664085713" duration="11252000" />
-      <workItem from="1765700985533" duration="265000" />
+      <workItem from="1765700985533" duration="5814000" />
+      <workItem from="1765715413928" duration="3370000" />
     </task>
     <task id="LOCAL-00001" summary="Initialize with DDEV and Bedrock">
       <option name="closed" value="true" />
@@ -255,8 +275,19 @@
       <option name="project" value="LOCAL" />
       <updated>1765699432132</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add prettier to wordpress-demo theme">
+      <option name="closed" value="true" />
+      <created>1765701406140</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1765701406140</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
+  </component>
+  <component name="TerminalProjectNonSharedOptionsProvider">
+    <option name="startingDirectory" value="\\wsl.localhost\Ubuntu\home\mbishram\personal\learn\wordpress-demo\web\app\themes\wordpress-demo" />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
@@ -266,7 +297,8 @@
     <MESSAGE value="Initialize Sage theme" />
     <MESSAGE value="Update README.md for Sage theme" />
     <MESSAGE value="Fix asset missing on development server" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix asset missing on development server" />
+    <MESSAGE value="Add prettier to wordpress-demo theme" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add prettier to wordpress-demo theme" />
   </component>
   <component name="WordPressConfiguration" enabled="true">
     <wordpressPath>\\wsl.localhost\Ubuntu\home\mbishram\personal\learn\wordpress-demo\web\wp</wordpressPath>

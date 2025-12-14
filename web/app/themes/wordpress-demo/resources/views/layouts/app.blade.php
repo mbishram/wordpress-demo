@@ -20,11 +20,7 @@
 
     @include('sections.header')
 
-    <main id="main" class="main">
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi
-      consequatur corporis cum debitis distinctio
-      ea, enim eos eum eveniet ex facere laboriosam laborum magni, nisi
-      obcaecati provident quos recusandae rerum!
+    <main id="main" class="main container">
       @yield('content')
     </main>
 

@@ -1,0 +1,8 @@
+@theme {
+  --color-primary: var(--color-blue-500);
+
+  --spacing-xs: --spacing(2);
+  --spacing-sm: --spacing(4);
+  --spacing-md: --spacing(6);
+  --spacing-lg: --spacing(12);
+}
