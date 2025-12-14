@@ -13,6 +13,12 @@ While on the theme root directory, Install the required dependencies using npm.
 ddev npm install
 ```
 
+Copy `.env.example` to `.env` and update the following values.
+```dotenv
+APP_URL="${DDEV_PRIMARY_URL}"
+```
+This will configuration needed for Vite dev server to fix CORS issue. For more details, see [Laravel Vite on CORS section](https://laravel.com/docs/12.x/vite#cors).
+
 On the first run, build the project using the command below.
 ```shell
 ddev npm run build
