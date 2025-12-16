@@ -34,13 +34,9 @@ It should show the URL where the site is served.
 
 ## Code Formatter
 
-This project uses [Prettier](https://prettier.io/) as a code formatter. To use them, run the following command in the project root to install their dependencies. Remember to start DDEV server before running the command.
+This project uses [Prettier](https://prettier.io/) as a code formatter. Their dependencies are installed automatically when running `ddev start`.
 
-```shell
-ddev npm install
-```
-
-After that, you can use your favorite code editor or CLI to format the code.
+You can run Prettier immediately using your favorite code editor or CLI.
 
 ## Demo Theme
 

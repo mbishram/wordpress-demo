@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="48100f4a-393f-48a7-a290-2131bbf0d7f3" name="Changes" comment="Finish styling for index page">
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="48100f4a-393f-48a7-a290-2131bbf0d7f3" name="Changes" comment="Move prettier to the root directory">
+      <change beforePath="$PROJECT_DIR$/.ddev/config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/.ddev/config.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/wordpress-demo/.prettierrc" beforeDir="false" afterPath="$PROJECT_DIR$/.prettierrc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/wordpress-demo/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/web/app/themes/wordpress-demo/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/app/themes/wordpress-demo/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/web/app/themes/wordpress-demo/package.json" afterDir="false" />
     </list>
     <list id="36d9891a-7b0e-43b1-a20d-da78fb203b08" name="Do not commit!" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,7 +32,7 @@
     <drupalPath />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="3307" />
+    <option name="cachedIndexableFilesCount" value="3310" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -193,7 +188,7 @@
     "git-widget-placeholder": "main",
     "javascript.preferred.runtime.type.id": "node",
     "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "//wsl.localhost/Ubuntu/home/mbishram/personal/learn/wordpress-demo/web/app/themes/wordpress-demo",
+    "last_opened_file_path": "//wsl.localhost/Ubuntu/home/mbishram/personal/learn/wordpress-demo/.ddev/web-build",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -202,13 +197,14 @@
     "nodejs_interpreter_path": "wsl://Ubuntu@/home/mbishram/.local/share/mise/installs/node/24.11.1/bin/node",
     "nodejs_package_manager_path": "npm",
     "prettierjs.PrettierConfiguration.Package": "\\\\wsl.localhost\\Ubuntu\\home\\mbishram\\personal\\learn\\wordpress-demo\\node_modules\\prettier",
-    "settings.editor.selected.configurable": "settings.javascript.prettier",
+    "settings.editor.selected.configurable": "preferences.fileTypes",
     "to.speed.mode.migration.done": "true",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="\\wsl.localhost\Ubuntu\home\mbishram\personal\learn\wordpress-demo\.ddev\web-build" />
       <recent name="\\wsl.localhost\Ubuntu\home\mbishram\personal\learn\wordpress-demo\web\app\themes\wordpress-demo" />
       <recent name="\\wsl.localhost\Ubuntu\home\mbishram\personal\learn\wordpress-demo" />
     </key>
@@ -242,7 +238,7 @@
       <workItem from="1765715413928" duration="4651000" />
       <workItem from="1765748318720" duration="3294000" />
       <workItem from="1765777138950" duration="8633000" />
-      <workItem from="1765851663499" duration="9031000" />
+      <workItem from="1765851663499" duration="13713000" />
     </task>
     <task id="LOCAL-00001" summary="Initialize with DDEV and Bedrock">
       <option name="closed" value="true" />
@@ -308,7 +304,15 @@
       <option name="project" value="LOCAL" />
       <updated>1765750277069</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Move prettier to the root directory">
+      <option name="closed" value="true" />
+      <created>1765872174419</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1765872174419</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -337,7 +341,8 @@
     <MESSAGE value="Add styling to header" />
     <MESSAGE value="Update README.md for wordpress-demo theme" />
     <MESSAGE value="Finish styling for index page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finish styling for index page" />
+    <MESSAGE value="Move prettier to the root directory" />
+    <option name="LAST_COMMIT_MESSAGE" value="Move prettier to the root directory" />
   </component>
   <component name="WordPressConfiguration" enabled="true">
     <wordpressPath>\\wsl.localhost\Ubuntu\home\mbishram\personal\learn\wordpress-demo\web\wp</wordpressPath>

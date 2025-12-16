@@ -7,8 +7,8 @@ xdebug_enabled: false
 additional_hostnames: []
 additional_fqdns: []
 database:
-    type: mariadb
-    version: "10.11"
+  type: mariadb
+  version: "10.11"
 use_dns_when_possible: true
 composer_version: "2"
 web_environment: []
@@ -294,7 +294,6 @@ web_extra_exposed_ports:
 # See https://docs.ddev.com/en/stable/users/extend/custom-commands/ for more
 # information on the commands that can be extended and the tasks you can define
 # for them. Example:
-#hooks:
-# Un-comment to emit the WP CLI version after ddev start.
-#  post-start:
-#    - exec: wp cli version
+hooks:
+  post-start:
+    - exec: bash -c "[ -d node_modules ] || npm install" # Run npm install if node_modules doesn't exist
