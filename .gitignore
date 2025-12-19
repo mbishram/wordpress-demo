@@ -29,3 +29,6 @@ wp-cli.local.yml
 
 # Node Modules
 /node_modules
+
+# IDE Files
+/.idea
