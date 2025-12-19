@@ -4,10 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="48100f4a-393f-48a7-a290-2131bbf0d7f3" name="Changes" comment="Move prettier to the root directory">
-      <change beforePath="$PROJECT_DIR$/.ddev/config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/.ddev/config.yaml" afterDir="false" />
+    <list default="true" id="48100f4a-393f-48a7-a290-2131bbf0d7f3" name="Changes" comment="Add styling to content page partial">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/app/themes/wordpress-demo/resources/views/page.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/app/themes/wordpress-demo/resources/views/page.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/app/themes/wordpress-demo/resources/views/partials/comments.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/app/themes/wordpress-demo/resources/views/partials/comments.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/app/themes/wordpress-demo/resources/views/partials/content-page.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/app/themes/wordpress-demo/resources/views/partials/content-page.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/app/themes/wordpress-demo/resources/views/partials/content-single.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/app/themes/wordpress-demo/resources/views/partials/content-single.blade.php" afterDir="false" />
     </list>
     <list id="36d9891a-7b0e-43b1-a20d-da78fb203b08" name="Do not commit!" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,7 +37,7 @@
     <drupalPath />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="3310" />
+    <option name="cachedIndexableFilesCount" value="3312" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -43,6 +48,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JoomlaConfiguration">
@@ -185,7 +195,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "page-styling-test",
     "javascript.preferred.runtime.type.id": "node",
     "junie.onboarding.icon.badge.shown": "true",
     "last_opened_file_path": "//wsl.localhost/Ubuntu/home/mbishram/personal/learn/wordpress-demo/.ddev/web-build",
@@ -197,7 +207,7 @@
     "nodejs_interpreter_path": "wsl://Ubuntu@/home/mbishram/.local/share/mise/installs/node/24.11.1/bin/node",
     "nodejs_package_manager_path": "npm",
     "prettierjs.PrettierConfiguration.Package": "\\\\wsl.localhost\\Ubuntu\\home\\mbishram\\personal\\learn\\wordpress-demo\\node_modules\\prettier",
-    "settings.editor.selected.configurable": "preferences.fileTypes",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "to.speed.mode.migration.done": "true",
     "vue.rearranger.settings.migration": "true"
   }
@@ -238,7 +248,11 @@
       <workItem from="1765715413928" duration="4651000" />
       <workItem from="1765748318720" duration="3294000" />
       <workItem from="1765777138950" duration="8633000" />
-      <workItem from="1765851663499" duration="13713000" />
+      <workItem from="1765851663499" duration="15360000" />
+      <workItem from="1765931390450" duration="2294000" />
+      <workItem from="1766036898403" duration="137000" />
+      <workItem from="1766135049101" duration="159000" />
+      <workItem from="1766135228667" duration="6035000" />
     </task>
     <task id="LOCAL-00001" summary="Initialize with DDEV and Bedrock">
       <option name="closed" value="true" />
@@ -312,7 +326,15 @@
       <option name="project" value="LOCAL" />
       <updated>1765872174419</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Make node dependencies installation automatic">
+      <option name="closed" value="true" />
+      <created>1765877409379</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1765877409379</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -342,7 +364,9 @@
     <MESSAGE value="Update README.md for wordpress-demo theme" />
     <MESSAGE value="Finish styling for index page" />
     <MESSAGE value="Move prettier to the root directory" />
-    <option name="LAST_COMMIT_MESSAGE" value="Move prettier to the root directory" />
+    <MESSAGE value="Make node dependencies installation automatic" />
+    <MESSAGE value="Add styling to content page partial" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add styling to content page partial" />
   </component>
   <component name="WordPressConfiguration" enabled="true">
     <wordpressPath>\\wsl.localhost\Ubuntu\home\mbishram\personal\learn\wordpress-demo\web\wp</wordpressPath>
