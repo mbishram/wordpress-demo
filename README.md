@@ -40,6 +40,6 @@ You can run Prettier immediately using your favorite code editor or CLI.
 
 ## Demo Theme
 
-The demo theme created by Sage are located at `web/app/themes/wordpress-demo`.
+The demo theme created by Sage are located at `web/app/themes/hybrid-demo`.
 
 For more details on how to run it, see `README.md` file in the same directory.

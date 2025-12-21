@@ -1,6 +1,6 @@
-# Wordpress Demo Theme
+# Hybrid Demo
 
-A Wordpress theme demo created using [Sage](https://roots.io/sage/).
+A Wordpress hybrid theme demo created using [Sage](https://roots.io/sage/).
 
 ## Requirements
 
