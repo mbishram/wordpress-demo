@@ -22,6 +22,7 @@
   "devDependencies": {
     "@prettier/plugin-php": "^0.24.0",
     "@shufo/prettier-plugin-blade": "^1.16.1",
-    "prettier": "^3.7.4"
+    "prettier": "^3.7.4",
+    "prettier-plugin-tailwindcss": "^0.7.2"
   }
 }
