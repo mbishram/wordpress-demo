@@ -20,7 +20,7 @@
 
     @include('sections.header')
 
-    <main id="main" class="main container mx-auto w-full max-w-xl">
+    <main id="main" class="main container py-lg">
       @yield('content')
     </main>
 
