@@ -1,0 +1,26 @@
+@layer components {
+  /* Default width */
+  .wp-block-post-title,
+  .page-header,
+  .e-content > *,
+  .wp-block-post-content > * {
+    @apply container-60!;
+  }
+
+  /* Title */
+  .wp-block-post-title,
+  .page-header {
+    @apply mb-lg text-6xl;
+  }
+
+  /* Content */
+  .e-content,
+  .wp-block-post-content {
+    @apply text-lg;
+
+    /* Spacing between content */
+    & > *:not(:last-child) {
+      @apply mb-md;
+    }
+  }
+}
