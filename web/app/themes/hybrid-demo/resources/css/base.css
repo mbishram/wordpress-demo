@@ -1,0 +1,5 @@
+@layer base {
+  h1 {
+    @apply mb-lg container-60 text-5xl;
+  }
+}

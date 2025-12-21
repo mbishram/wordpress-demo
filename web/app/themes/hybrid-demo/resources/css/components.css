@@ -1,2 +1,5 @@
 @layer components {
+  .editor-styles-wrapper > div {
+    @apply container;
+  }
 }

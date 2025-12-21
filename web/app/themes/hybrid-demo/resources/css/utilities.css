@@ -12,3 +12,15 @@
     text-decoration: underline !important;
   }
 }
+
+@utility container-* {
+  width: 100%;
+  max-width: --value(--breakpoint-sm);
+  margin-inline: auto;
+
+  /* noinspection CssOverwrittenProperties */
+  @variant lg {
+    max-width: calc(100% * --value(ratio));
+    max-width: calc(--value(integer) * 1%);
+  }
+}
