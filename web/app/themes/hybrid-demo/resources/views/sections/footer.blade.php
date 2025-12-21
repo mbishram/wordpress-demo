@@ -1,5 +1,5 @@
 <footer
-  class="content-info gap-sm container flex items-center justify-between">
+  class="content-info gap-sm py-sm container flex items-center justify-between">
   <a class="brand link text-lg font-bold" href="{{ home_url('/') }}">
     {!! $siteName !!}
   </a>

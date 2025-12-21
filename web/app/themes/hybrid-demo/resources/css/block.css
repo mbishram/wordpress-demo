@@ -10,7 +10,7 @@
   /* Title */
   .wp-block-post-title,
   .page-header {
-    @apply mb-lg text-6xl;
+    @apply mb-lg space-y-xs text-6xl;
   }
 
   /* Content */

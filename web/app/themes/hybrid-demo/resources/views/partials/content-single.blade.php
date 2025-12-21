@@ -1,5 +1,5 @@
 <article @php(post_class('h-entry'))>
-  <header>
+  <header class="page-header">
     <h1 class="p-name">
       {!! $title !!}
     </h1>
