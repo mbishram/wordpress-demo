@@ -11,7 +11,7 @@
     {!! get_search_form(false) !!}
   @endif
 
-  <section class="space-y-lg">
+  <section class="space-y-lg container-60">
     @while (have_posts())
       @php(the_post())
       @includeFirst([
