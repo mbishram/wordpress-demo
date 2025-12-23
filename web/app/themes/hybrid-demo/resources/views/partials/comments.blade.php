@@ -1,7 +1,7 @@
 @if (!post_password_required())
-  <section id="comments" class="comments mt-lg container-60">
+  <section id="comments" class="comments mt-lg container-60 space-y-md">
     @if ($responses())
-      <h2>
+      <h2 class="text-xl font-bold">
         {!! $title !!}
       </h2>
 

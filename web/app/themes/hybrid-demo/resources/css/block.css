@@ -28,13 +28,6 @@
       @apply pl-md py-md border-l-2 font-serif text-4xl;
     }
 
-    /* Link */
-    a {
-      @variant hover {
-        @apply text-primary;
-      }
-    }
-
     /* List Block */
     ol.wp-block-list,
     ul.wp-block-list {

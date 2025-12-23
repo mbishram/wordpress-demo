@@ -2,6 +2,7 @@
   --color-primary: var(--color-blue-500);
   --color-secondary: var(--color-gray-400);
 
+  --spacing-2xs: --spacing(1);
   --spacing-xs: --spacing(2);
   --spacing-sm: --spacing(4);
   --spacing-md: --spacing(6);

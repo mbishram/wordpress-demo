@@ -1,9 +1,12 @@
 @import 'tailwindcss' theme(static);
 
 @import './theme.css';
+@import './base.css';
 @import './components.css';
 @import './utilities.css';
 @import './block.css';
 
+@import './comment.css';
+
 @source '../views/';
-@source "../../app/";
+@source '../../app/';

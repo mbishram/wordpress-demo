@@ -1,0 +1,8 @@
+@layer base {
+  /* Link */
+  a {
+    @variant hover {
+      @apply text-primary;
+    }
+  }
+}

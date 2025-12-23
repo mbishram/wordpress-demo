@@ -1,0 +1,69 @@
+#comments {
+  /* Comments list */
+  .comment-list,
+  .comment-list .parent {
+    @apply space-y-sm;
+  }
+
+  .comment-list {
+    .children {
+      @apply pl-sm border-secondary border-l-2;
+    }
+
+    article.comment-body {
+      @apply py-xs space-y-xs;
+
+      .comment-meta {
+        .comment-metadata {
+          @apply text-secondary text-sm;
+
+          .edit-link {
+            @apply ml-2xs font-bold;
+          }
+        }
+      }
+
+      .reply {
+        @apply text-secondary font-bold;
+      }
+    }
+  }
+
+  /* Comment form */
+  #respond {
+    @apply space-y-sm;
+
+    .comment-reply-title {
+      @apply text-xl font-bold;
+
+      small {
+        @apply ml-xs text-secondary;
+      }
+    }
+
+    #commentform {
+      @apply space-y-xs;
+
+      .required {
+        @apply text-red-500;
+      }
+
+      label {
+        @apply block font-bold;
+
+        @variant not-last {
+          @apply mb-xs;
+        }
+      }
+
+      textarea,
+      input:not([type='submit']) {
+        @apply border-secondary p-xs block w-full rounded-sm border;
+      }
+
+      input[type='submit'] {
+        @apply mt-sm bg-primary hover:bg-primary/80 py-xs px-sm mb-0 cursor-pointer rounded-sm text-white transition-colors;
+      }
+    }
+  }
+}
