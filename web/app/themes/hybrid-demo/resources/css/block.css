@@ -22,5 +22,33 @@
     & > *:not(:last-child) {
       @apply mb-md;
     }
+
+    /* Blockquote block */
+    blockquote {
+      @apply pl-md py-md border-l-2 font-serif text-4xl;
+    }
+
+    /* Link */
+    a {
+      @variant hover {
+        @apply text-primary;
+      }
+    }
+
+    /* List Block */
+    ol.wp-block-list,
+    ul.wp-block-list {
+      @apply pl-md;
+    }
+
+    /* List Ordered Block */
+    ol.wp-block-list {
+      @apply list-decimal;
+    }
+
+    /* List Unordered Block */
+    ul.wp-block-list {
+      @apply list-disc;
+    }
   }
 }
