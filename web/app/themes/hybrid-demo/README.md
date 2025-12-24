@@ -1,6 +1,6 @@
 # Hybrid Demo
 
-A Wordpress hybrid theme demo created using [Sage](https://roots.io/sage/).
+A Wordpress hybrid theme demo created using [Sage](https://roots.io/sage/) and enhanced using [Poet](https://github.com/Log1x/poet).
 
 ## Requirements
 
@@ -37,4 +37,8 @@ Afterwards, use the command below while developing.
 ddev npm run dev
 ```
 
-As a note, remember to use Prettier while developing.
+As a note, remember to use Prettier while developing. They are installed on the root directory.
+
+## Additional Features
+
+Additional features like **registering custom post types**, **creating blocks**, **creating pattern**, etc. are provided by Poet. For more information on how to use them, see [Poet usage documentation](https://github.com/Log1x/poet?tab=readme-ov-file#usage).
