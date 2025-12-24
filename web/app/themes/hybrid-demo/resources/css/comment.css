@@ -6,7 +6,11 @@
   }
 
   .comment-list {
-    .children {
+    .comment {
+      @apply target:bg-primary/10;
+    }
+
+    .children .comment {
       @apply pl-sm border-secondary border-l-2;
     }
 
