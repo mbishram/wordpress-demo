@@ -2,13 +2,15 @@
   /* Default width */
   .wp-block-post-title,
   .e-content > *,
+  .post-header,
   .wp-block-post-content > * {
     @apply container-60!;
   }
 
   /* Title */
   .wp-block-post-title,
-  .page-header {
+  .page-header,
+  .post-header {
     @apply mb-lg space-y-xs text-6xl;
   }
 
