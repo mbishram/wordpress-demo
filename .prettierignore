@@ -1,0 +1,2 @@
+# Ignore sage theme block patterns
+**/block-patterns/*.blade.php

@@ -110,11 +110,11 @@ return [
     */
 
     'block_pattern' => [
-        // 'sage/hero' => [
-        //     'title' => 'Page Hero',
-        //     'description' => 'Draw attention to the main focus of the page, and highlight key CTAs',
-        //     'categories' => ['all'],
-        // ],
+        'image-caption' => [
+            'title' => 'Image with caption',
+            'description' => 'An image with caption',
+            'categories' => ['article'],
+        ],
     ],
 
     /*
@@ -128,9 +128,9 @@ return [
     */
 
     'block_pattern_category' => [
-        // 'all' => [
-        //     'label' => 'All Patterns',
-        // ],
+        'article' => [
+            'label' => 'Article',
+        ],
     ],
 
     /*
