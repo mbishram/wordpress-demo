@@ -8,7 +8,7 @@
       <x-alert type="warning" class="mb-sm">
         {!! __(
             'Sorry, but the page you are trying to view does not exist.',
-            'sage',
+            'hybrid-demo',
         ) !!}
       </x-alert>
 

@@ -6,11 +6,11 @@
 
   <div class="gap-md flex">
     <ol>
-      <h2 class="mb-xs font-bold">{{ __('Archives', 'sage') }}</h2>
+      <h2 class="mb-xs font-bold">{{ __('Archives', 'hybrid-demo') }}</h2>
       @php(wp_get_archives())
     </ol>
     <ol>
-      <h2 class="mb-xs font-bold">{{ __('Categories', 'sage') }}</h2>
+      <h2 class="mb-xs font-bold">{{ __('Categories', 'hybrid-demo') }}</h2>
       @php(wp_list_categories(['title_li' => '']))
     </ol>
   </div>

@@ -1,7 +1,8 @@
 @php(get_search_form())
 
 <div>
-  <h2 class="mb-xs text-xl font-bold">{{ __('Recent Posts', 'sage') }}</h2>
+  <h2 class="mb-xs text-xl font-bold">{{ __('Recent Posts', 'hybrid-demo') }}
+  </h2>
   <ol class="space-y-2xs">
     @foreach ($recent_posts() as $post)
       <li>
@@ -14,7 +15,8 @@
 </div>
 
 <div>
-  <h2 class="mb-xs text-xl font-bold">{{ __('Recent Comments', 'sage') }}</h2>
+  <h2 class="mb-xs text-xl font-bold">{{ __('Recent Comments', 'hybrid-demo') }}
+  </h2>
   <ol>
     @foreach ($recent_comments() as $comment)
       <li>

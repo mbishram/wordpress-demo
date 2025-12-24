@@ -8,7 +8,7 @@
 
     @if (!have_posts())
       <x-alert type="warning">
-        {!! __('Sorry, no results were found.', 'sage') !!}
+        {!! __('Sorry, no results were found.', 'hybrid-demo') !!}
       </x-alert>
     @else
       <section class="space-y-lg">
