@@ -20,14 +20,21 @@
 
     @include('sections.header')
 
-    <main id="main" class="main container py-lg">
-      @yield('content')
-    </main>
-
     @hasSection('sidebar')
-      <aside class="sidebar">
-        @yield('sidebar')
-      </aside>
+      <div
+        class="py-lg gap-lg xl:container-60 container flex flex-col lg:flex-row">
+        <main id="main" class="main grow">
+          @yield('content')
+        </main>
+
+        <aside class="sidebar space-y-sm">
+          @yield('sidebar')
+        </aside>
+      </div>
+    @else
+      <main id="main" class="main container">
+        @yield('content')
+      </main>
     @endif
 
     @include('sections.footer')

@@ -1,7 +1,6 @@
 @layer components {
   /* Default width */
   .wp-block-post-title,
-  .page-header,
   .e-content > *,
   .wp-block-post-content > * {
     @apply container-60!;

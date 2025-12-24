@@ -11,7 +11,7 @@
     {!! get_search_form(false) !!}
   @endif
 
-  <section class="space-y-lg container-60">
+  <section class="space-y-lg">
     @while (have_posts())
       @php(the_post())
       @includeFirst([
@@ -22,4 +22,8 @@
   </section>
 
   {!! get_the_posts_navigation() !!}
+@endsection
+
+@section('sidebar')
+  @include('sections.sidebar')
 @endsection
