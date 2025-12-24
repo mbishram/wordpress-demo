@@ -1,6 +1,6 @@
-<article @php(post_class())>
-  <header>
-    <h2 class="entry-title">
+<article @php(post_class('space-y-sm'))>
+  <header class="space-y-xs">
+    <h2 class="entry-title link text-2xl">
       <a href="{{ get_permalink() }}">
         {!! $title !!}
       </a>

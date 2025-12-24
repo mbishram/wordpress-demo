@@ -19,9 +19,9 @@
           'partials.content',
       ])
     @endwhile
-  </section>
 
-  {!! get_the_posts_navigation() !!}
+    {!! get_the_posts_navigation() !!}
+  </section>
 @endsection
 
 @section('sidebar')

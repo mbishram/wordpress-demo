@@ -15,7 +15,7 @@
 
 <div>
   <h2 class="mb-xs text-xl font-bold">{{ __('Recent Comments', 'sage') }}</h2>
-  <ol class="space-y-2xs">
+  <ol>
     @foreach ($recent_comments() as $comment)
       <li>
         <a
