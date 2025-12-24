@@ -10,10 +10,11 @@ A Wordpress hybrid theme demo created using [Sage](https://roots.io/sage/).
 
 Before starting, make sure DDEV server is running.
 
-While on the theme root directory, Install the required dependencies using npm.
+While on the theme root directory, Install the required dependencies using npm and composer.
 
 ```shell
 ddev npm install
+ddev composer -d web/app/themes/hybrid-demo install
 ```
 
 Copy `.env.example` to `.env` and update the following values.
