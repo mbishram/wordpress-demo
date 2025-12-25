@@ -1,8 +1,11 @@
 @layer base {
-  /* Link */
   a {
     @variant hover {
       @apply text-primary;
     }
+  }
+
+  [x-cloak] {
+    display: none !important;
   }
 }
