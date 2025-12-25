@@ -40,6 +40,10 @@ You can run Prettier immediately using your favorite code editor or CLI.
 
 ## Demo Theme
 
-The demo theme created by Sage are located at `web/app/themes/hybrid-demo`.
+The demo theme created by Sage are located at `/web/app/themes/hybrid-demo`.
 
 For more details on how to run it, see `README.md` file in the same directory.
+
+## Sample Data
+
+Sample data used for testing purposes are located at `/data`. You can use [Wordpress' import tool](https://wordpress.com/support/import/import-a-sites-content/) to import them.
