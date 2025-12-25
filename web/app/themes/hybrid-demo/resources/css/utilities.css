@@ -20,6 +20,8 @@
 
   /* noinspection CssOverwrittenProperties */
   @variant lg {
+    /* prettier-ignore */
+    max-width: --value(--breakpoint-*);
     max-width: calc(100% * --value(ratio));
     max-width: calc(--value(integer) * 1%);
   }

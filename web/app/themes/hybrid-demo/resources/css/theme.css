@@ -7,4 +7,5 @@
   --spacing-sm: --spacing(4);
   --spacing-md: --spacing(6);
   --spacing-lg: --spacing(12);
+  --spacing-xl: --spacing(16);
 }
