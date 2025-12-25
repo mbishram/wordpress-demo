@@ -12,6 +12,7 @@
   };
 @endphp
 
-<div {{ $attributes->merge(['class' => "px-sm py-xs rounded-sm {$class}"]) }}>
+<div x-data x-init="console.log('Testing Alpine')"
+  {{ $attributes->merge(['class' => "px-sm py-xs rounded-sm {$class}"]) }}>
   {!! $message ?? $slot !!}
 </div>

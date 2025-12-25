@@ -1,6 +1,6 @@
-import { defineConfig } from 'vite'
+import { defineConfig } from 'vite';
 import tailwindcss from '@tailwindcss/vite';
-import laravel from 'laravel-vite-plugin'
+import laravel from 'laravel-vite-plugin';
 import { wordpressPlugin, wordpressThemeJson } from '@roots/vite-plugin';
 
 export default defineConfig({
@@ -33,6 +33,15 @@ export default defineConfig({
       '@styles': '/resources/css',
       '@fonts': '/resources/fonts',
       '@images': '/resources/images',
+
+      /**
+       * Alias to keep WordPress using dependency extraction instead of one from node_modules. @see https://developer.wordpress.org/block-editor/reference-guides/packages/packages-dependency-extraction-webpack-plugin/
+       *
+       * NOTE:
+       * The same package should also be installed on the dev dependencies.
+       * This was only done to add type-hinting to the IDE, the package used are still one from WordPress dependency extraction.
+       */
+      '@wordpress/dom-ready': 'window.wp.domReady',
     },
   },
   server: {
@@ -43,5 +52,5 @@ export default defineConfig({
       host: 'wordpress-demo.ddev.site',
       clientPort: 5174,
     },
-  }
-})
+  },
+});
