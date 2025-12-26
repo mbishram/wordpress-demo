@@ -12,6 +12,9 @@ web/app/cache/*
 web/wp
 web/.htaccess
 
+# Plugin symlink (Query Monitor)
+web/app/db.php
+
 # Logs
 *.log
 
