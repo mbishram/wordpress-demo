@@ -294,6 +294,3 @@ web_extra_exposed_ports:
 # See https://docs.ddev.com/en/stable/users/extend/custom-commands/ for more
 # information on the commands that can be extended and the tasks you can define
 # for them. Example:
-hooks:
-  post-start:
-    - exec: bash -c "[ -d node_modules ] || npm install" # Run npm install if node_modules doesn't exist
