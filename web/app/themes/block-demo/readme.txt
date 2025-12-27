@@ -16,7 +16,7 @@ Block theme demo created using Create Block Theme plugin.
 == Changelog ==
 
 = 1.0.0 =
-* Initial release
+* Initialize with Create Block Theme plugin.
 
 
 == Copyright ==
