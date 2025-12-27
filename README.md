@@ -32,12 +32,6 @@ ddev start
 
 It should show the URL where the site is served.
 
-## Code Formatter
-
-This project uses [Prettier](https://prettier.io/) as a code formatter. Their dependencies are installed automatically when running `ddev start`.
-
-You can run Prettier immediately using your favorite code editor or CLI.
-
 ## Demo Theme
 
 There are two types of themes in this project, hybrid theme and block theme.

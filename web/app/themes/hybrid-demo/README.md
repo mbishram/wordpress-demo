@@ -37,7 +37,7 @@ Afterwards, use the command below while developing.
 ddev npm run dev
 ```
 
-As a note, remember to use Prettier while developing. They are installed on the root directory.
+As a note, remember to use Prettier while developing. They are installed on the current theme root directory.
 
 ## Additional Features
 
