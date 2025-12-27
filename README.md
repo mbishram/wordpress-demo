@@ -1,6 +1,6 @@
 # Wordpress Demo
 
-A Wordpress demo created using [DDEV](https://ddev.com/), [Bedrock](https://roots.io/bedrock/), and [Sage](https://roots.io/sage/).
+A Wordpress demo created using [DDEV](https://ddev.com/) and [Bedrock](https://roots.io/bedrock/).
 
 ## Requirements
 
@@ -40,10 +40,14 @@ You can run Prettier immediately using your favorite code editor or CLI.
 
 ## Demo Theme
 
-The demo theme created by Sage are located at `/web/app/themes/hybrid-demo`.
+There are two types of themes in this project, hybrid theme and block theme.
 
-For more details on how to run it, see `README.md` file in the same directory.
+Hybrid themes are located at `/web/app/themes/hybrid-demo`. They are created using [Sage](https://roots.io/sage/).
+
+For block themes, they are located at `/web/app/themes/block-demo` and are created using [Create Block Theme](https://wordpress.org/plugins/create-block-theme/) plugin's blank theme template.
+
+For more details on how to run them, see `README.md` file on each of the theme's root directory.
 
 ## Sample Data
 
-Sample data used for testing purposes are located at `/data`. You can use [Wordpress' import tool](https://wordpress.com/support/import/import-a-sites-content/) to import them.
+Sample data used for testing purposes are located at `/data` which you can use with [Wordpress' import tool](https://wordpress.com/support/import/import-a-sites-content/) to import them.
