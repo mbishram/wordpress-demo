@@ -41,7 +41,6 @@
     "roots/wordpress": "6.9",
     "roots/wp-config": "1.0.0",
     "wpackagist-theme/twentytwentyfive": "^1.0",
-    "wpackagist-theme/twentytwentytwo": "^2.1",
     "wpackagist-theme/twentytwentyone": "^2.7",
     "wpackagist-plugin/query-monitor": "^3.20",
     "wpackagist-plugin/create-block-theme": "^2.8"
