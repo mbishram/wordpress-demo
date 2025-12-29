@@ -9,3 +9,7 @@ A Wordpress block theme demo created using [Create Block Theme](https://wordpres
 ## Getting Started
 
 There are no built tools to run for this theme. So, you can immediately view it in action by visiting the URL provided by DDEV after starting the server.
+
+## Useful Resources
+
+- [Full Site Editing](https://fullsiteediting.com/)
