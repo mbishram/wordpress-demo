@@ -32,7 +32,7 @@
 		},
 		"layout": {
 			"contentSize": "48rem",
-			"wideSize": "96rem"
+			"wideSize": "80rem"
 		},
 		"spacing": {
 			"defaultSpacingSizes": false,
@@ -144,6 +144,17 @@
 						"left": "0"
 					}
 				}
+			},
+			"core/latest-comments": {
+				"css": "& li { margin-bottom: var(--wp--preset--spacing--xs); }",
+				"spacing": {
+					"padding": {
+						"left": "0"
+					}
+				}
+			},
+			"core/latest-posts": {
+				"css": "& li { margin-bottom: var(--wp--preset--spacing--xs); }"
 			}
 		},
 		"elements": {
