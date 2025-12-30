@@ -25,13 +25,7 @@ APP_URL="${DDEV_PRIMARY_URL}"
 
 This configuration is needed to fix CORS error that happend in development environment. For more details, see [Laravel Vite on CORS section](https://laravel.com/docs/12.x/vite#cors).
 
-On the first run, build the project using the command below.
-
-```shell
-ddev npm run build
-```
-
-Afterwards, use the command below while developing.
+While developing, use the following command.
 
 ```shell
 ddev npm run dev
