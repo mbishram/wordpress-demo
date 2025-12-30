@@ -176,7 +176,8 @@
 			"core/image": {
 				"border": {
 					"radius": "var(--wp--preset--border-radius--small)"
-				}
+				},
+				"css": "& img[style*=\"aspect-ratio\"] { width: 100%; }"
 			},
 			"core/latest-comments": {
 				"css": "& li { margin-bottom: var(--wp--preset--spacing--xs); }",
@@ -296,6 +297,7 @@
 				}
 			}
 		},
+		"css": ".invisible { visibility: hidden; }",
 		"elements": {
 			"h1": {
 				"typography": {
